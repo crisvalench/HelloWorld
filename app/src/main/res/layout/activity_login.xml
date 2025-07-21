@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="UPS App"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:background="#003772"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/myUser"
+        android:layout_width="300sp"
+        android:layout_height="100dp"
+        android:hint="Enter your user"
+        android:background="#c4d4e9"
+        android:textSize="20sp"
+        android:layout_marginTop="250dp"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/myPassword"
+        android:layout_width="300sp"
+        android:layout_height="100dp"
+        android:hint="Enter your password"
+        android:background="#c4d4e9"
+        android:textSize="20sp"
+        android:layout_marginTop="370dp"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/myLoginBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2d567a"
+        android:textSize="20sp"
+        android:text="Login"
+        android:textAllCaps="true"
+        android:layout_marginTop="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
